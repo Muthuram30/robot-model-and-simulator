@@ -14,11 +14,11 @@ def save_state():
     history[:] = history[:ptr+1]
     history.append((x, y, orientation, battery_level))
     ptr += 1
-#
+#access the ptr values
 def restore_state():
     global x, y, orientation, battery_level, history, ptr
     x, y, orientation, battery_level = history[ptr]
-
+#ptr-1 and restore
 def undo():
     global ptr
     if ptr <= 0:
@@ -27,7 +27,7 @@ def undo():
     ptr -= 1
     restore_state()
     print("Undo done")
-
+#ptr+1 and restore
 def redo():
     global ptr
     if ptr >= len(history)-1:
@@ -117,7 +117,7 @@ def move():
     if(not battery_check()):
         return
     steps=int(input("Enter number of steps: "))
-    oldx,oldy=x,y
+    oldx,oldy=x,y #store back if boundary check fails
 
     if(orientation=="N"):
         y+=steps
