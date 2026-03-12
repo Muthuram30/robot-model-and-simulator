@@ -1,0 +1,13 @@
+width(enter a number in range 0 to 10000):
+height(enter a number in range 0 to 10000):
+1) Place robot  ( places the robot in a specific position in the grid)
+2) Move (forward/back)
+3) Rotate (left/right)
+4) Charge battery
+5) Report status ( reports the position in grid, orientation, and battery level) 
+6) Undo last command
+7) Redo last command
+0) Exit
+enter the choice: 2
+place the robot first
+enter the choice: 1
