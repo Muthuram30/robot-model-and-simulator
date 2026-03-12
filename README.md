@@ -1,4 +1,3 @@
-﻿# robot-model-and-simulator
 
 # Robot Model and Simulator
 
@@ -86,3 +85,4 @@ Enter rotation left(0) or right(1): 1
 
 
 ---
+
