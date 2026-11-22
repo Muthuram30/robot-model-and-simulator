@@ -1,6 +1,9 @@
 
 # Robot Model and Simulator
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Robotics](https://img.shields.io/badge/Robotics-6D549C)
+
+
 ## Overview
 
 This project is a **Python-based robot simulator** that operates in a 2D grid world.
